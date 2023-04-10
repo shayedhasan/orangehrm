@@ -1,0 +1,24 @@
+Test Case 1:
+Title: Verify User Can Search with Partial Text
+
+Steps:
+1. Navigate to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+2. Type the following credentials:
+Username : Admin
+Password : admin123
+
+3. Click Login button
+
+4. Click on PIM from side menu bar
+
+5. Type "ch" in the Employee Name text input field
+
+Expected Results:
+1. Verify user can see a list of predicted users that has "ch" in their names (ignore case/not case sensitive)
+
+Steps contd.
+6. Click on green Search button
+
+Expected Results:
+2. The system will display results of records found - from there verify that at least the first 3 should have ch in either First or Last name column

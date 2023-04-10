@@ -1,0 +1,36 @@
+Test Case 2:
+Title: Verify User Can Add Pay Grades
+
+Steps:
+1. Navigate to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+2. Type the following credentials:
+Username : Admin
+Password : admin123
+
+3. Click Login button
+
+4. Click on Admin from side menu bar
+
+5. Click Job dropdown
+
+6. Click Pay Grades
+
+7. Click green +Add button
+
+8. Type "Indian Rupee" in the name input field
+
+9. Click green Save button
+
+10. Click green + Add button on the Currencies section 
+
+11. Select Indian Rupee from Current dropdown
+
+12. Type Minimum Salary as 30000
+
+13. Type Maximum Salary as 100000
+
+14. Click green Save button on Currencies section
+
+Expected Results:
+1. Verify user can observe the added records in the Currencies section
